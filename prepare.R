@@ -11,7 +11,7 @@ library(tm)
 library(lsa)
 
 
-for (i in 1:200)
+for (i in 1:10158)
 {
 
   #preproccesing to query
@@ -46,7 +46,7 @@ for (i in 1:200)
   queries_source <- VectorSource(title)
 
   corpus <- Corpus(queries_source)
-  corpus <- tm_map(corpus, content_transformer(tolower))
+  corpus <- tm_map(corpus, content_transformer(tolower)) 
   corpus <- tm_map(corpus, removePunctuation)
 
   corpus <- tm_map(corpus, stripWhitespace)
@@ -116,7 +116,7 @@ train <- read_csv("test.csv")
 
 test_After_Stemming <- data.frame(id = numeric(), query = character(),product_title = character(), product_description = character())
 
-for (i in 1:200)
+for (i in 1:22513)
 {
   
   #preproccesing to query

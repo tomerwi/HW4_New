@@ -255,7 +255,7 @@ write.csv(file="test_after_stemming.csv", x=test_After_Stemming, row.names = F)
     
  Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_J48-4/qGramJ48.R
  
-  ![alt tag](/Qgram_Cosin_J48-4/rank.JPG)
+  ![alt tag](/Qgram_Cosin_J48-4/Rank.JPG)
   
  
     e. We used Randomforest. It improved our position in one place :)

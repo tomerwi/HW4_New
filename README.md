@@ -233,10 +233,10 @@ write.csv(file="test_after_stemming.csv", x=test_After_Stemming, row.names = F)
     
     Link to the file: https://github.com/tomerwi/HW4_New/blob/master/cosSimJ48-1/cosSimilaritySubmission.R
   
-        Screenshot:
-        ![alt tag](/cosSimJ48-1/screenShot1.PNG)
-        
-        
+  Screenshot:
+ ![alt tag](/cosSimJ48-1/screenShot1.PNG)
+
+
     b. we changed the model to randomForest.
     
    Link to the file: https://github.com/tomerwi/HW4_New/blob/master/cosSimRandomForest-2/cosSimilaritySubmissionRandomForest.R
@@ -253,7 +253,7 @@ write.csv(file="test_after_stemming.csv", x=test_After_Stemming, row.names = F)
    
     d. We removed the jaccard becuase we noticed that it doesnt improve the performance. 
     
-      Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_J48-4/qGramJ48.R
+ Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_J48-4/qGramJ48.R
  
   ![alt tag](/Qgram_Cosin_J48-4/rank.jpg)
   

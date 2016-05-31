@@ -249,18 +249,18 @@ write.csv(file="test_after_stemming.csv", x=test_After_Stemming, row.names = F)
    Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_Jacard_J48-3/Qgram_Cosin_Jacard_J48.R
    
   Screenshot: 
-   ![alt tag](/Qgram_Cosin_Jacard_J48-3/rank.jpg)
+   ![alt tag](/Qgram_Cosin_Jacard_J48-3/rank.JPG)
    
     d. We removed the jaccard becuase we noticed that it doesnt improve the performance. 
     
  Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_J48-4/qGramJ48.R
  
-  ![alt tag](/Qgram_Cosin_J48-4/rank.jpg)
+  ![alt tag](/Qgram_Cosin_J48-4/rank.JPG)
   
  
     e. We used Randomforest. It improved our position in one place :)
     
   Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_RandomForest-5/Qgram_Cosin_RandomForest.R
    
-    ![alt tag](/Qgram_Cosin_RandomForest-5/rank.jpg)
+    ![alt tag](/Qgram_Cosin_RandomForest-5/rank.JPG)
     

@@ -231,44 +231,36 @@ write.csv(file="test_after_stemming.csv", x=test_After_Stemming, row.names = F)
 2. We started submitting our results to the site
     a. First Submission - We did cossineSimilarity with J48 model. 
     
-        Link to the file: https://github.com/tomerwi/HW4_New/blob/master/cosSimJ48-1/cosSimilaritySubmission.R
-        
+    Link to the file: https://github.com/tomerwi/HW4_New/blob/master/cosSimJ48-1/cosSimilaritySubmission.R
+  
         Screenshot:
         ![alt tag](/cosSimJ48-1/screenShot1.PNG)
         
         
     b. we changed the model to randomForest.
     
-        Link to the file: https://github.com/tomerwi/HW4_New/blob/master/cosSimRandomForest-2/cosSimilaritySubmissionRandomForest.R
-        
-        Screenshot:
-        ![alt tag](/cosSimRandomForest-2/screenShot2.PNG)
+   Link to the file: https://github.com/tomerwi/HW4_New/blob/master/cosSimRandomForest-2/cosSimilaritySubmissionRandomForest.R
+  
+  Screenshot:
+   ![alt tag](/cosSimRandomForest-2/screenShot2.PNG)
     
     c. We added another attribute to the J48 model - the attribute are Qgrams and Jaccard
     
-        Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_Jacard_J48-3/Qgram_Cosin_Jacard_J48.R
-        
-        Screenshot: 
-        ![alt tag](/Qgram_Cosin_Jacard_J48-3/rank.jpg)
-        
+   Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_Jacard_J48-3/Qgram_Cosin_Jacard_J48.R
+   
+  Screenshot: 
+   ![alt tag](/Qgram_Cosin_Jacard_J48-3/rank.jpg)
+   
     d. We removed the jaccard becuase we noticed that it doesnt improve the performance. 
     
-        Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_J48-4/qGramJ48.R
-        
-        ![alt tag](/Qgram_Cosin_J48-4/rank.jpg)
-        
-        
+      Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_J48-4/qGramJ48.R
+ 
+  ![alt tag](/Qgram_Cosin_J48-4/rank.jpg)
+  
+ 
     e. We used Randomforest. It improved our position in one place :)
     
-        Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_RandomForest-5/Qgram_Cosin_RandomForest.R
-        
-        ![alt tag](/Qgram_Cosin_RandomForest-5/rank.jpg)
-        
-        
-        
-        
-        
-        
-        
-        
-        
+  Link: https://github.com/tomerwi/HW4_New/blob/master/Qgram_Cosin_RandomForest-5/Qgram_Cosin_RandomForest.R
+   
+    ![alt tag](/Qgram_Cosin_RandomForest-5/rank.jpg)
+    

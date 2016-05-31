@@ -228,14 +228,8 @@ write.csv(file="test_after_stemming.csv", x=test_After_Stemming, row.names = F)
 
 
 
-
-
-
-
-
-
-
-
-
-
-2.     
+2. We started submitting our results to the site
+    a. First Submission - We did cossineSimilarity with J48 model. 
+        Link to the file: https://github.com/tomerwi/HW4_New/blob/master/cosSimJ48-1/cosSimilaritySubmission.R
+        Screenshot:
+        ![alt tag](/cosSimJ48-1/screenShot1.PNG)

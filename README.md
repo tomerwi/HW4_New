@@ -10,7 +10,9 @@ Steps that we took:
     
     The code:
     
-    library(readr)
+
+
+library(readr)
 train <- read_csv("train.csv")
 
 
@@ -21,10 +23,11 @@ library(tm)
 library(lsa)
 
 
-for (i in 1:200)
+for (i in 1:10158)
 {
 
   #preproccesing to query
+  
   queries <- paste(train$query[i], collapse=" ")
   query=NULL
   if (length(queries)==1)
@@ -51,6 +54,7 @@ for (i in 1:200)
 
 
   #preproccesing to title
+  
   title<-paste(train$product_title[i], collapse=" ")
 
   queries_source <- VectorSource(title)
@@ -75,6 +79,7 @@ for (i in 1:200)
 
 
   #preproccesing to description
+  
   desciption<-paste(train$product_description[i], collapse=" ")
   d=TRUE
   if(desciption!=""){
@@ -120,16 +125,17 @@ write.csv(file="train_after_stemming.csv", x=train_After_Stemming, row.names = F
 
 
 
-##Test
+#Test
 
 train <- read_csv("test.csv")
 
 test_After_Stemming <- data.frame(id = numeric(), query = character(),product_title = character(), product_description = character())
 
-for (i in 1:200)
+for (i in 1:22513)
 {
   
   #preproccesing to query
+  
   queries <- paste(train$query[i], collapse=" ")
   query=NULL
   if (length(queries)==1)
@@ -156,6 +162,7 @@ for (i in 1:200)
   
   
   #preproccesing to title
+  
   title<-paste(train$product_title[i], collapse=" ")
   
   queries_source <- VectorSource(title)
@@ -180,6 +187,7 @@ for (i in 1:200)
   
   
   #preproccesing to description
+  
   desciption<-paste(train$product_description[i], collapse=" ")
   d=TRUE
   if(desciption!=""){
@@ -210,13 +218,24 @@ for (i in 1:200)
   
   
 
-  
-  #train_After_Stemming<-rbind(train_After_Stemming, data.frame(id =train$id[i] , query = current_query,product_title = title, product_description = desciption, median_relevance = median, relevance_variance = var))
+
   test_After_Stemming<-rbind(test_After_Stemming, data.frame(id =train$id[i] , query = current_query,product_title = total_title, product_description = total_desc))
   
 }
 
 
 write.csv(file="test_after_stemming.csv", x=test_After_Stemming, row.names = F)
+
+
+
+
+
+
+
+
+
+
+
+
 
 2.     
